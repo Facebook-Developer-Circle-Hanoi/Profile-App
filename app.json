@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Profile App",
+    "slug": "devc",
+    "privacy": "public",
+    "description":"Hello everyone, thanks for watching Jerry's application, this is a beautiful profile page application, written in the second week of the Facebook Circle HaNoi Facebook 2020 course",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.namhong3012.devc"
+    }
+  }
+}
